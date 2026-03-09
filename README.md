@@ -5,11 +5,11 @@ Page
 /
 1
 100%
-# Program Name
-Team member 1, Team member 2, Team member 3
+# Ceasar Cipher
+Alex, Gabriel
 
 ## <program_name> Description
-Here is where you describe what the program does
+A very simple encoding and decoding of a Ceasar cypher.
 
 ### <program_name> Flowchart
 ```mermaid
@@ -22,13 +22,43 @@ graph TD;
 
 #### Function Diagrams
 
-| `function name1`    |               |  author     |
+| `main`    |               |  author     |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for ____  |              |
 | `time:integer`     | calculates ______  | outputs ____             |
 | `name:string`      | takes input for name ___ | returns total |
 ***
-| `function name2`    |               |     author   |
+| `get_shift`    |               |     author   |
+| ------------------ | ------------- | ------------ |
+| `argument:type`    | takes input from the user for ____  |              |
+| `time:integer`     | calculates ______  | outputs ____             |
+| `name:string`      | takes input for name ___ | returns total |
+***
+| `choose_option`    |               |     author   |
+| ------------------ | ------------- | ------------ |
+| `argument:type`    | takes input from the user for ____  |              |
+| `time:integer`     | calculates ______  | outputs ____             |
+| `name:string`      | takes input for name ___ | returns total |
+***
+| `get_message`    |               |     author   |
+| ------------------ | ------------- | ------------ |
+| `argument:type`    | takes input from the user for ____  |              |
+| `time:integer`     | calculates ______  | outputs ____             |
+| `name:string`      | takes input for name ___ | returns total |
+***
+| `create_key`    |               |     author   |
+| ------------------ | ------------- | ------------ |
+| `argument:type`    | takes input from the user for ____  |              |
+| `time:integer`     | calculates ______  | outputs ____             |
+| `name:string`      | takes input for name ___ | returns total |
+***
+| `encode`    |               |     author   |
+| ------------------ | ------------- | ------------ |
+| `argument:type`    | takes input from the user for ____  |              |
+| `time:integer`     | calculates ______  | outputs ____             |
+| `name:string`      | takes input for name ___ | returns total |
+***
+| `decode`    |               |     author   |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for ____  |              |
 | `time:integer`     | calculates ______  | outputs ____             |
