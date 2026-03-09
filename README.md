@@ -22,46 +22,46 @@ graph TD;
 
 #### Function Diagrams
 
-| `main`    |               |  author     |
+| `main`    |               |  Alex     |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for ____  |              |
 | `time:integer`     | calculates ______  | outputs ____             |
 | `name:string`      | takes input for name ___ | returns total |
 ***
-| `get_shift`    |               |     author   |
+| `get_shift`    |               |     Gabriel   |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for ____  |              |
 | `time:integer`     | calculates ______  | outputs ____             |
 | `name:string`      | takes input for name ___ | returns total |
 ***
-| `choose_option`    |               |     author   |
+| `choose_option`    |               |     Alex   |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for ____  |              |
 | `time:integer`     | calculates ______  | outputs ____             |
 | `name:string`      | takes input for name ___ | returns total |
 ***
-| `get_message`    |               |     author   |
+| `get_message`    |               |     Gabriel   |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for ____  |              |
 | `time:integer`     | calculates ______  | outputs ____             |
 | `name:string`      | takes input for name ___ | returns total |
 ***
-| `create_key`    |               |     author   |
+| `create_key`    |               |     ALex   |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for ____  |              |
 | `time:integer`     | calculates ______  | outputs ____             |
 | `name:string`      | takes input for name ___ | returns total |
 ***
-| `encode`    |               |     author   |
+| `encode`    |               |     Gabriel   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for ____  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns total |
+| `argument:type`    | Takes message and key as an input  |              |
+| `time:integer`     | encodes message  | outputs encoded message             |
+| `name:string`      | takes input for message | returns message |
 ***
-| `decode`    |               |     author   |
+| `decode`    |               |     Alex   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for ____  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns total |
+| `argument:type`    | Takes the message and key as input  |              |
+| `time:integer`     | Decodes the message  | outputs decded message             |
+| `name:string`      | takes input for message | returns message |
 ***
 Displaying README.md.
