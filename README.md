@@ -8,16 +8,16 @@ Page
 # Ceasar Cipher
 Alex, Gabriel
 
-## <program_name> Description
+## Ceasar Cipher Description
 A very simple encoding and decoding of a Ceasar cypher.
 
-### <program_name> Flowchart
+### Ceasar Cipher Flowchart
 ```mermaid
 graph TD;
-  A-->B;
-  A-->C;
-  A-->D;
-  A-->E;
+  Main-->B;
+  Main-->C;
+  Main-->D;
+  Main-->E;
 ```
 
 #### Function Diagrams
