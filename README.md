@@ -15,7 +15,9 @@ A very simple encoding and decoding of a Ceasar cypher.
 ```mermaid
 graph TD;
   Main-->get_shift;
-  get_shift-->choose_option;
+get_shift-->create_key;
+  create_key-->get_message;
+  get_message-->choose_option;
   choose_option-->decode;
   choose_option-->encode;
 ```
