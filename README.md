@@ -14,10 +14,10 @@ A very simple encoding and decoding of a Ceasar cypher.
 ### Ceasar Cipher Flowchart
 ```mermaid
 graph TD;
-  Main-->B;
-  Main-->C;
-  Main-->D;
-  Main-->E;
+  Main-->get_shift;
+  get_shift-->choose_option;
+  choose_option-->decode;
+  choose_option-->encode;
 ```
 
 #### Function Diagrams
