@@ -15,7 +15,7 @@ A very simple encoding and decoding of a Ceasar cypher.
 ```mermaid
 graph TD;
   Main-->get_shift;
-get_shift-->create_key;
+  get_shift-->create_key;
   create_key-->get_message;
   get_message-->choose_option;
   choose_option-->decode;
@@ -26,21 +26,17 @@ get_shift-->create_key;
 
 | `main`    |               |  Alex     |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for ____  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns total |
+| `argument:type`    | Uses other funvtions in the progrsm  |              |
 ***
 | `get_shift`    |               |     Gabriel   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for ____  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns total |
+| `argument:type`    | takes input from the user for number of shift (1-25)  |              |
+| `shift:integer`     | calculates the cipher shift  |
 ***
 | `choose_option`    |               |     Alex   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for ____  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns total |
+| `argument:type`    | takes input from the user to either decode or encode  |              |
+| `time:integer`     | takes the number 
 ***
 | `get_message`    |               |     Gabriel   |
 | ------------------ | ------------- | ------------ |
