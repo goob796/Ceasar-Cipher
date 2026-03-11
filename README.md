@@ -26,7 +26,7 @@ graph TD;
 
 | `main`    |               |  Alex     |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | Uses other functions in the progrsm  |              |
+| `argument:type`    | Uses other functions in the program  |              |
 ***
 | `get_shift`    |               |     Gabriel   |
 | ------------------ | ------------- | ------------ |
@@ -47,7 +47,7 @@ graph TD;
 ***
 | `encode`    |               |     Gabriel   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | Takes message and key as variables | returns a encoded message with the key given |
+| `argument:type`    | Takes message and key as variables | returns an encoded message with the key given |
 ***
 | `decode`    |               |     Alex   |
 | ------------------ | ------------- | ------------ |
