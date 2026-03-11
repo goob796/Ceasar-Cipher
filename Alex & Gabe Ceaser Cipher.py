@@ -30,7 +30,7 @@ def get_message():
     #get_message accepts no arguements
     #get_message should prompt the user to enter a message to encode or decode.
     #It should return that message
-    print('Please input a message to ecode or decode:')
+    print('Please input a message to encode or decode:')
     message = input()
     return message
 def create_key(shift):
