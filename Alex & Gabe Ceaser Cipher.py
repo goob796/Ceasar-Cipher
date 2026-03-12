@@ -31,8 +31,19 @@ def get_shift():
     #accepts no arguements
     #get_shift should prompt the user for the shift value and return the value as a string
     #Validate for integers 1-25, inclusive.
-    pass
-
+    again = 'y'
+    while again == 'y':
+        try:
+            shift = int(input('Enter a number 1-25 for your shift: '))
+            if shift > 25 or shift < 1:
+                print('Please enter a digit from 1-25\n')
+                again = 'y'
+            else:
+                again = 'n'
+        except:
+            again = 'y'
+            print('Please enter a digit from 1-25\n')
+    return shift
 def choose_option(): #choose option accepts no arguements
     #choose_option should prompt the user to choose to encode or decode.
     #It should return True if the user chooses encode and False
@@ -57,9 +68,9 @@ def get_message():
     #get_message accepts no arguements
     #get_message should prompt the user to enter a message to encode or decode.
     #It should return that message
-    
-    pass
-
+    print('Please input a message to encode or decode:')
+    message = input()
+    return message
 def create_key(shift):
     #accepts 1 arguement of a shift dictionary
     #create_key should accept the shift value from get_shift.
