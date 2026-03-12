@@ -66,7 +66,6 @@ def create_key(shift):
     #It should create the caesar cipher according to the shift value
     #and store the key in a dictionary and return the dictionary as the key
     
-    shift = message #make the shift key number the message
     
     alphabet = string.ascii_uppercase #initlize alphabet
     
