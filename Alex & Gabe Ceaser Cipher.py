@@ -57,6 +57,7 @@ def get_message():
     #get_message accepts no arguements
     #get_message should prompt the user to enter a message to encode or decode.
     #It should return that message
+    
     pass
 
 def create_key(shift):
@@ -64,8 +65,18 @@ def create_key(shift):
     #create_key should accept the shift value from get_shift.
     #It should create the caesar cipher according to the shift value
     #and store the key in a dictionary and return the dictionary as the key
-    pass
+    
+    shift = message #make the shift key number the message
+    
+    alphabet = string.ascii_uppercase #initlize alphabet
+    
+    #create the key based on the shift
+    key = alphabet[shift+1:]+alphabet[:shift+1]
+    
+    return key
 
+
+        
 def encode(message, key): #accepts message as a string and key as a dictionary
     #it should encode the message using the key and return the encoded message as a string
     pass
