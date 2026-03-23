@@ -67,7 +67,7 @@ def choose_option(): #choose option accepts no arguements
     #get input from the user for the menu choice
     try:
         #validate input
-        while choice < 1 or choice > 3:  # FIX: include option 3
+        while choice < 1 or choice > 3: 
             print()
             choice = int(input("Enter 1 to encode, 2 to decode, 3 to quit: "))
             
